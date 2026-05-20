@@ -1,0 +1,28 @@
+# FastAPI核心
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# 数据库
+sqlalchemy==2.0.23
+alembic==1.12.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+aiomysql==0.3.2
+
+# 配置管理
+pydantic-settings==2.3.3
+python-dotenv==1.0.0
+
+# 开发工具
+black==23.11.0
+isort==5.12.0
+mypy==1.7.0
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# 认证
+python-jose[cryptography]==3.3.0
+bcrypt>=4.0.0
+
+# 其他
+python-multipart==0.0.6
